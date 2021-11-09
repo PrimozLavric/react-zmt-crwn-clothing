@@ -27,6 +27,10 @@
 
     .arrow {
       cursor: pointer;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
     }
 
     .value {
@@ -37,5 +41,9 @@
   .remove-button {
     padding-left: 12px;
     cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
 }
